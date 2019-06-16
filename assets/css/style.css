@@ -89,7 +89,7 @@ table {
 }
 
 body {
-	background-image: url(assets/images/background.png);
+	background-image: url(assets/images/white-waves.png);
 }
             
 h1{
@@ -131,7 +131,8 @@ h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	font-size: x-large;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 footer {
