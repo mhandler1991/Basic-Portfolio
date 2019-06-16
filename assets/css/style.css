@@ -56,7 +56,7 @@ table {
 .top {
 	background-color: white;
 	padding-bottom: 60px;
-	border-color: black;
+	border-color:#cccccc;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	padding-right: 40px;
@@ -72,7 +72,7 @@ table {
 	margin-bottom: 40px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: black;
+	border-color:#cccccc;
 }
 
 body {
@@ -82,12 +82,13 @@ body {
 h1{
     background-color: #4aaaa5;
     display: block;
-	padding: 20px;
+	padding: 18px;
 	color: White;
 	float: left;
 	margin-left: 40px;
 	margin-right: 100px;
 	font-weight: bold;
+	font-size: x-large;
 }
 
 li {
@@ -132,4 +133,5 @@ footer {
 .profile {
 	float: left;
 	margin: 5px;
+	margin-right: 20px;
 }
