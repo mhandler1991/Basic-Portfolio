@@ -144,11 +144,21 @@ footer {
 	color: white;
 	text-align: center;
   }
+
+/*
+  ========================================
+  Images
+  ========================================
+*/
   
 .profile {
 	float: left;
 	margin: 5px;
 	margin-right: 20px;
+}
+
+.portfolio-icon {
+	
 }
 
 /*
