@@ -1,6 +1,6 @@
 /*
   ========================================
-  Standardization
+  Standardization - Browser Reset
   ========================================
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -57,8 +57,6 @@ table {
   
   ========================================
 */
-
-
 
 .top {
 	background-color: white;
