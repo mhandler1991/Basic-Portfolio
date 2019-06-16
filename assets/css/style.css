@@ -53,102 +53,83 @@ table {
   ========================================
 */
 
+.top {
+	background-color: white;
+	padding-bottom: 60px;
+	border-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-right: 40px;
+}
+
+.middle {
+	float: left;
+	height: 500px;
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+body {
+	background-image: url(assets/images/background.png);
+}
+            
+h1{
+    background-color: #4aaaa5;
+    display: block;
+	padding: 20px;
+	color: White;
+	float: left;
+	margin-left: 40px;
+	margin-right: 100px;
+	font-weight: bold;
+}
+
+li {
+	float: right;
+	padding: 20px;
+	margin-right: 10px;
+}
+
 p {
+	clear: both;
+	margin-top: 10px;
     color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-  ========================================
-  Headers  
-  ========================================
-*/
+nav {
+	background-color: #ffffff;
+	color: grey;
 
-h1 .background {
-    color: #4aaaa5;
 }
 
-.main-header {
-   background-color:#ffffff;
-   color: #cccccc;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+h2 {
+	clear: both;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom-color: grey;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
 }
 
 footer {
-    background-color: #666666;
+	clear: both;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color:#4aaaa5;
+	background-color: grey;
+	padding: 20px;
+	color: white;
+	text-align: center;
+  }
+  
+.profile {
+	float: left;
+	margin: 5px;
 }
-
-.main-content {
-    background-color: #ffffff;
-    border-color: #dddddd;
-}
-
-
-
-
-/*
-  ========================================
-
-
-  Requirements !!!
-
-
-
-Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
-
-
-Teal color (used for headings and backgrounds): #4aaaa5
-
-Regular font color (used for paragraphs and all text besides the headings): #777777
-
-Main header background color: #ffffff
-
-Main header border color: #cccccc
-
-Footer background color: #666666
-
-Main content background color: #ffffff
-
-Main content border color: #dddddd
-
-
-
-
-Fonts:
-
-
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-
-
-
-Profile Image Found on index.html:
-
-
-Use a picture of yourself.
-If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
-
-
-
-Portfolio Images:
-
-
-Placeholder images can be found at LoremPixel.
-Save the images to your images folder.
-
-
-
-Background Images:
-
-
-The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
-
-
-
-Dimensions:
-
-
-The entire content and the main section content area is 960px wide. 
-
-========================================
-*/
