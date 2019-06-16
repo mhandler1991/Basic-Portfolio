@@ -102,10 +102,12 @@ h1{
 
 li {
 	float: right;
-	padding: 20px;
+	padding-right: 8px;
+	margin: 20px;
 	margin-right: 10px;
 	border-right-width: 1px;
 	border-right-color: #777777;
+	border-right-style: solid;
 }
 
 p {
