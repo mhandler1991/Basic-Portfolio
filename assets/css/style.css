@@ -71,9 +71,10 @@ a:visited {
 
 /*
   ========================================
-  
+  Sections
   ========================================
 */
+
 
 .top {
 	background-color: white;
@@ -98,11 +99,16 @@ a:visited {
 	border-color:#dddddd;
 	background-color: #ffffff;
 	width: 960px;
-
 }
 
+/*
+  ========================================
+  Elements
+  ========================================
+*/
+
 body {
-	background-image: url(assets/images/white-waves.png);
+	overflow: visible;s
 }
             
 h1{
