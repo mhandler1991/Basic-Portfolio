@@ -54,55 +54,6 @@ table {
 
 /*
   ========================================
-  Links
-  ========================================
-*/
-
-a:link {
-	text-decoration: none;
-	color:#777777;
-}
-
-a:visited {
-	text-decoration: none;
-	color:#777777;
-}
-
-
-/*
-  ========================================
-  Sections
-  ========================================
-*/
-
-
-.top {
-	background-color: white;
-	padding-bottom: 60px;
-	border-color:#cccccc;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	padding-right: 40px;
-}
-
-.middle {
-	clear:both;
-	float: left;
-	height: 500px;
-	padding: 20px;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	border-style: solid;
-	border-width: 1px;
-	border-color:#dddddd;
-	background-color: #ffffff;
-	width: 960px;
-}
-
-/*
-  ========================================
   Elements
   ========================================
 */
@@ -166,7 +117,58 @@ footer {
 	padding: 20px;
 	color: white;
 	text-align: center;
-  }
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:link {
+	text-decoration: none;
+	color:#777777;
+}
+
+a:visited {
+	text-decoration: none;
+	color:#777777;
+}
+
+
+/*
+  ========================================
+  Sections
+  ========================================
+*/
+
+
+.top {
+	background-color: white;
+	padding-bottom: 60px;
+	border-color:#cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-right: 40px;
+}
+
+.middle {
+	clear:both;
+	float: left;
+	height: 500px;
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#dddddd;
+	background-color: #ffffff;
+	width: 960px;
+}
+
 
 /*
   ========================================
@@ -181,11 +183,11 @@ footer {
 }
 
 .portfolio-icon {
-	margin-left: 20px;
 	float: left;
 	width: 250px;
 	height: 250px;
 	margin-bottom: 50px;
+	margin-right: 50px;
 }
 
 .portfolio-text {
@@ -196,13 +198,13 @@ footer {
 	color: white;
 	padding-right: 10px;
 	padding-left: 10px;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	position: absolute;
-	width: 85%;
-	margin-left: 20px;
+	width: 230px;
 	margin-top: 190px;
+	margin-right: 50px;
 }
 
 .container {
