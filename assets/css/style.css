@@ -1,5 +1,27 @@
 /*
   ========================================
+	Notes:
+		Fix Footer issue
+		fix width issue of main content
+		fix width issue of navigation bar
+
+
+
+
+
+
+
+
+
+
+  ========================================
+*/
+
+
+
+
+/*
+  ========================================
   Standardization - Browser Reset
   ========================================
 */
@@ -58,8 +80,17 @@ table {
   ========================================
 */
 
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	overflow: visible;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
             
 h1{
@@ -172,6 +203,10 @@ a:visited {
 	border-color:#dddddd;
 	background-color: #ffffff;
 	width: 960px;
+}
+
+.main-content {
+	min-height: 100%;
 	position: relative;
 }
 
