@@ -161,7 +161,7 @@ a:visited {
 .middle {
 	clear:both;
 	float: left;
-	height: 500px;
+	height: auto;
 	padding: 20px;
 	margin-left: 40px;
 	margin-right: 40px;
