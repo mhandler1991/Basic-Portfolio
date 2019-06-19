@@ -219,6 +219,10 @@ a:visited {
 	position: relative;
 }
 
+.top-bar {
+	width: 960px;
+}
+
 
 /*
   ========================================
@@ -294,6 +298,6 @@ input[type=text], textarea {
 }
 
 textarea {	
-	height: 150px;
+	height: 200px;
 }
 
