@@ -4,8 +4,9 @@
 		Fix Footer issue
 		fix width issue of main content
 		fix width issue of navigation bar
-		Background image fix - apply source to css not pages individually
 
+		chcek out css grid:
+		https://css-tricks.com/snippets/css/complete-guide-grid/
 
   ========================================
 */
@@ -148,9 +149,8 @@ footer {
 	color: white;
 	text-align: center;
 	position: absolute;
-	right: 0;
+	width: 100%;
 	bottom: 0;
-	left: 0;
 }
 
 /*
