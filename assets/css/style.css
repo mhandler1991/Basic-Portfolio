@@ -139,14 +139,12 @@ a:visited {
 */
 
 .top-bar {
-	left:0;
-	right:0;
+	clear: both;
 	padding-bottom: 0;
 	background-color: 0;
 	border-color:#cccccc;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-
 }
 
 .middle {
@@ -169,7 +167,7 @@ a:visited {
 	min-height: 100%;
 }
 
-.top {
+.top-bar {
 	clear: both;
 	top: 0;
 	background-color: white;
