@@ -9,9 +9,20 @@
 
 		Check out Css Positioning
 
+
+			 ___.___
+  			  c[_]`=--X 
+
+
+  		 __                   ___                       
+ 		|""|  ___    _   __  |"""|  __                  
+ 		|""| |"""|  |"| |""| |"""| |""| 
+ 		|""| |"""|  |"| |""| |"""| |""| 
+ 		|""| |"""|  |"| |""| |"""| |""| 
+ 		"'''"''"'""'"""''"''''"""'""'""'  
+
   ========================================
 */
-
 
 /*
   ========================================
@@ -127,14 +138,15 @@ a:visited {
   ========================================
 */
 
-
-.top {
-	background-color: white;
-	padding-bottom: 60px;
+.top-bar {
+	left:0;
+	right:0;
+	padding-bottom: 0;
+	background-color: 0;
 	border-color:#cccccc;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	padding-right: 40px;
+
 }
 
 .middle {
@@ -155,13 +167,23 @@ a:visited {
 
 .main-content {
 	min-height: 100%;
-	position: relative;
 }
 
-.top-bar {
+.top {
+	clear: both;
+	top: 0;
+	background-color: white;
+	padding-bottom: 60px;
+	border-color:#cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
 	width: 960px;
 }
 
+.center{
+	margin: auto;
+	width: 50%;
+}
 
 /*
   ========================================
