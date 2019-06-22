@@ -82,6 +82,7 @@ h1{
 	font-weight: bold;
 	font-size: x-large;
 	align: left;
+	justify-content:left;
 }
 
 h2 {
@@ -100,9 +101,6 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-
-}
 
 /*
   ========================================
@@ -127,7 +125,6 @@ nav {
 .CenterFrame-2 {
 	clear: both;
 	display:flex;
-	justify-content:center;
 	align-items:center;
 	width:960px;
 	background-color: white;
