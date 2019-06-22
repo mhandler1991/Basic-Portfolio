@@ -1,14 +1,9 @@
 /*
   ========================================
-	NOTES:
-
+	Notes:
+		Nav Bar full width
 		
   ========================================
-
-
-
-
-
 
 			 ___.___
   			  c[_]`=--X 
@@ -21,14 +16,7 @@
  		|""| |"""|  |"| |""| |"""| |""| 
  		"'''"''"'""'"""''"''''"""'""'""'  
   ========================================
-  Background
-  ========================================
 */
-
-body {
-	background-image: url(../images/background.png)
-}
-
 
 /*
   ========================================
@@ -36,30 +24,23 @@ body {
   ========================================
 */
 
-header {
-	clear: both;
-	top: 0;
-	background-color: white;
-	border-color: #cccccc;
-	border-bottom: 1px;
-	border-bottom-style: sold;
-	margin-bottom: 40px;
-	border-bottom-style: solid;
-	border-bottom-color: #dddddd;
-	border-bottom-width: 1px;
+html {
+	height: 100%;
 }
 
-footer {
-	clear: both;
-	border-top-width: 4px;
-	border-top-style: solid;
-	border-top-color:#4aaaa5;
-	background-color: grey;
-	padding: 20px;
+body {
+	overflow: visible;
+	height: 100%;
+}
+            
+h1{
+    background-color: #4aaaa5;
+    display: block;
+	padding: 18px;
 	color: white;
-	text-align: center;
-	bottom: 0;
-	margin-top: 40px;
+	float: left;
+	font-weight: bold;
+	font-size: x-large;
 }
 
 li {
@@ -72,16 +53,17 @@ li {
 	border-right-style: solid;
 }
 
-h1{
-	clear:both;
-    background-color: #4aaaa5;
-    display: block;
-	padding: 18px;
-	color: white;
-	float: left;
-	font-weight: bold;
-	font-size: x-large;
-	align: left;
+p {
+	clear: both;
+	margin-top: 10px;
+    color: #777777;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	background-color: #ffffff;
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -96,51 +78,28 @@ h2 {
 	padding-bottom: 25px;
 }
 
-p {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-nav {
-
+footer {
+	clear: both;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color:#4aaaa5;
+	background-color: grey;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	bottom: 0;
 }
 
 /*
   ========================================
-  Classes
+  Background
   ========================================
 */
 
-.CenterFrame {
-	clear: both;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	width:960px;
-	background-color: white;
-	margin: 0 auto;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #dddddd;
-	min-height: 800px;
-}
-
-.CenterFrame-2 {
-	clear: both;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	width:960px;
-	background-color: white;
-	margin: 0 auto;
-	height: 60px;
-}
-
-.Content {
-	clear: both;
-	min-height: 100%;
-	float: left;
-	padding: 20px;
-
+body {
+	background-image: url(../images/white-waves.png);
 }
 
 
@@ -158,6 +117,58 @@ a:link {
 a:visited {
 	text-decoration: none;
 	color:#777777;
+}
+
+
+/*
+  ========================================
+  Sections
+  ========================================
+*/
+
+.top-bar {
+	clear: both;
+	padding-bottom: 0;
+	background-color: 0;
+	border-color:#cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.middle {
+	clear:both;
+	float: left;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#dddddd;
+	background-color: #ffffff;
+	width: 960px;
+
+}
+
+.main-content {
+	min-height: 100%;
+}
+
+.top-bar {
+	clear: both;
+	top: 0;
+	background-color: white;
+	padding-bottom: 60px;
+	border-color:#cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	width: 960px;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
 }
 
 /*
@@ -201,6 +212,7 @@ a:visited {
 	position: relative;
 }
 
+
 /*
   ========================================
   Form submission
@@ -209,8 +221,7 @@ a:visited {
 
 form{
 	clear:both;
-	float: left;
-	padding-left: 25px;
+	padding-left: 10px;
 	padding-right: 25px;
 	color: #777777;
 	font-family: Arial, Helvetica, sans-serif;	
@@ -227,7 +238,7 @@ input[type=submit] {
 }
 
 input[type=text], textarea {
-	width: 900px;
+	width: 100%;
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #777777;
